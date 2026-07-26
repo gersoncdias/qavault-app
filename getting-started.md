@@ -6,8 +6,8 @@ Este guia apresenta o fluxo básico para criar e compartilhar sua primeira evid�
 
 Escolha a versão correspondente ao seu sistema:
 
-- [Windows](windows-installation.md)
-- [Linux](linux-installation.md)
+- [Windows — Microsoft Store](https://apps.microsoft.com/detail/9ngvxr352hhq)
+- [Linux](docs/linux-installation.md)
 
 ## 2. Abra o QA Vault
 
@@ -76,6 +76,6 @@ Copiar e compartilhar o link
 
 ## Próximos passos
 
-- Consulte a página de [privacidade e segurança](privacy-and-security.md).
-- Veja a [solução de problemas](troubleshooting.md).
-- Conheça o [roadmap público](roadmap.md).
+- Consulte a [política de segurança](SECURITY.md).
+- Veja as novidades no [histórico de versões](CHANGELOG.md).
+- Em caso de problema, [abra uma issue](https://github.com/gersoncdias/qavault-app/issues/new).

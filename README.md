@@ -8,7 +8,7 @@ Capture screenshots, grave vídeos, proteja informações sensíveis, organize o
 
 [![Microsoft Store](https://img.shields.io/badge/Microsoft%20Store-Disponível-0078D4?logo=microsoft)](https://apps.microsoft.com/detail/9ngvxr352hhq)
 [![Site](https://img.shields.io/badge/Site-qavault.com.br-222222)](https://qavault.com.br)
-[![Releases](https://img.shields.io/github/v/release/gersondias/qavault-app?display_name=tag&include_prereleases)](../../releases)
+[![Releases](https://img.shields.io/github/v/release/gersoncdias/qavault-app?display_name=tag&include_prereleases)](https://github.com/gersoncdias/qavault-app/releases)
 
 > Este repositório é destinado à distribuição de versões, documentação, suporte e acompanhamento público do QA Vault.
 
@@ -49,13 +49,13 @@ A versão recomendada para Windows está disponível na Microsoft Store:
 
 Os instaladores publicados diretamente também podem ser encontrados em:
 
-[Ver releases do QA Vault](../../releases)
+[Ver releases do QA Vault](https://github.com/gersoncdias/qavault-app/releases)
 
 ### Linux
 
 Os pacotes Linux disponíveis, como `.deb`, são publicados na página de releases:
 
-[Baixar versão para Linux](../../releases)
+[Baixar versão para Linux](https://github.com/gersoncdias/qavault-app/releases)
 
 Consulte também o [guia de instalação no Linux](docs/linux-installation.md).
 
@@ -63,20 +63,18 @@ Consulte também o [guia de instalação no Linux](docs/linux-installation.md).
 
 Consulte o guia completo:
 
-[Começar a usar o QA Vault](docs/getting-started.md)
+[Começar a usar o QA Vault](getting-started.md)
 
 ## Documentação
 
-- [Primeiros passos](docs/getting-started.md)
-- [Instalação no Windows](docs/windows-installation.md)
+- [Primeiros passos](getting-started.md)
 - [Instalação no Linux](docs/linux-installation.md)
-- [Solução de problemas](docs/troubleshooting.md)
 
 ## Reportar um problema
 
 Encontrou um erro ou comportamento inesperado?
 
-[Abra uma issue](../../issues/new/choose) informando:
+[Abra uma issue](https://github.com/gersoncdias/qavault-app/issues/new) informando:
 
 - versão do QA Vault;
 - sistema operacional;
@@ -91,11 +89,11 @@ Não publique tokens, senhas, dados pessoais, evidências confidenciais ou infor
 
 Sugestões de funcionalidades e melhorias são bem-vindas:
 
-[Enviar sugestão](../../issues/new/choose)
+[Enviar sugestão](https://github.com/gersoncdias/qavault-app/issues/new)
 
 ## Releases e histórico
 
-As alterações de cada versão ficam registradas no [CHANGELOG](CHANGELOG.md) e nas [releases](../../releases).
+As alterações de cada versão ficam registradas no [CHANGELOG](CHANGELOG.md) e nas [releases](https://github.com/gersoncdias/qavault-app/releases).
 
 ## Status do projeto
 
@@ -126,8 +124,8 @@ Este repositório público contém apenas:
 
 - Site: [qavault.com.br](https://qavault.com.br)
 - Microsoft Store: [QA Vault Desktop](https://apps.microsoft.com/detail/9ngvxr352hhq)
-- Releases: [GitHub Releases](../../releases)
-- Issues: [GitHub Issues](../../issues)
+- Releases: [GitHub Releases](https://github.com/gersoncdias/qavault-app/releases)
+- Issues: [GitHub Issues](https://github.com/gersoncdias/qavault-app/issues)
 
 ---
 

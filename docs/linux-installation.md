@@ -4,7 +4,7 @@
 
 As versões para Linux são publicadas na página de releases:
 
-https://github.com/gersondias/qavault-app/releases
+https://github.com/gersoncdias/qavault-app/releases
 
 O formato principal é o pacote `.deb`, destinado a distribuições baseadas em Debian e Ubuntu.
 
@@ -64,4 +64,4 @@ dpkg -l | grep -i qavault
 
 ## Problemas
 
-Consulte o guia de [solução de problemas](troubleshooting.md).
+[Abra uma issue](https://github.com/gersoncdias/qavault-app/issues/new) informando a versão do QA Vault, sua distribuição Linux e o ambiente gráfico utilizado.
