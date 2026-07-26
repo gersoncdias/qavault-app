@@ -6,11 +6,6 @@ A segurança das evidências e dos dados dos usuários é uma prioridade para o 
 
 A versão mais recente publicada é a versão que recebe correções de segurança e manutenção.
 
-| Versão | Suporte |
-|---|---|
-| Versão mais recente | ✅ |
-| Versões anteriores | ⚠️ Avaliado caso a caso |
-
 Recomendamos manter o aplicativo sempre atualizado.
 
 ## Como reportar uma vulnerabilidade
