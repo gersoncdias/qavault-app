@@ -106,70 +106,46 @@ Consulte o guia completo:
 
 [Começar a usar o QA Vault](getting-started.md)
 
-## Roteiro sugerido para testes de uso
+## 🧪 Contribua com o QA Vault
 
-Se você está avaliando o QA Vault, sugerimos validar os seguintes fluxos.
+Você não precisa escrever código para contribuir com o QA Vault.
 
-### Aplicativo desktop
+A comunidade pode ajudar por meio de:
 
-- Instalar e abrir o aplicativo
-- Capturar uma screenshot
-- Revisar, recortar e pixelizar parte da imagem
-- Baixar a captura localmente sem conectar um armazenamento
-- Gravar um vídeo curto
-- Finalizar a gravação pelo controle flutuante
-- Renomear e baixar o vídeo localmente
-- Fazer login com Google ou código enviado por e-mail
-- Conectar uma conta do Google Drive
-- Fazer upload manual de uma imagem e de um vídeo
-- Criar ou selecionar uma pasta para organizar a evidência
-- Gerar, copiar e abrir um link público
-- Baixar a evidência pelo link compartilhado
-- Consultar uma evidência no histórico recente
+- testes exploratórios;
+- validação de novas versões;
+- relatos de bugs;
+- retestes de correções;
+- testes de compatibilidade;
+- avaliações de usabilidade e acessibilidade;
+- sugestões de melhorias;
+- contribuições para a documentação.
 
-### Extensão para Chrome
+As contribuições realizadas por meio de Issues, comentários, Test Reports e Pull Requests ficam registradas publicamente no GitHub e podem fazer parte do histórico de participação do contributor em um projeto real de software.
 
-- Instalar e fixar a extensão no navegador
-- Capturar uma aba, uma janela e a tela inteira
-- Recortar, desenhar, anotar e pixelizar a imagem capturada
-- Copiar e baixar a evidência sem conectar uma conta
-- Conectar a extensão ao QA Vault
-- Enviar uma captura para o QA Vault
-- Gravar um vídeo de aba, janela ou tela e revisar o arquivo WebM
-- Em uma gravação de aba, validar os dados de console e rede associados à evidência
-- Confirmar se o link e os metadados da página estão corretos
-- Validar a mensagem apresentada em páginas protegidas pelo navegador
+### Quer participar?
 
-### Versão web
+- [Veja como contribuir](CONTRIBUTING.md)
+- [Consulte o guia de testes](TESTING.md)
+- [Veja as Issues abertas](https://github.com/gersoncdias/qavault-app/issues)
 
-- Fazer login pelo navegador
-- Enviar uma imagem e um vídeo manualmente
-- Importar uma evidência produzida em um dispositivo móvel
-- Abrir e compartilhar a evidência gerada
-
-Durante os testes, observe principalmente:
-
-- clareza das mensagens e ações disponíveis;
-- facilidade para concluir cada fluxo;
-- qualidade da imagem ou do vídeo salvo;
-- tempo de upload e carregamento;
-- comportamento em caso de cancelamento ou erro;
-- funcionamento dos links compartilhados;
-- presença de dados sensíveis que deveriam ser ocultados.
+A participação é aberta e espontânea. Não existe quantidade mínima de testes, frequência ou prazo obrigatório.
 
 ## Enviar feedback ou reportar um problema
 
 Encontrou um erro, dificuldade de uso ou comportamento inesperado?
 
-[Abra uma issue](https://github.com/gersoncdias/qavault-app/issues/new) informando:
+Antes de abrir uma nova Issue, consulte o [guia de contribuição](CONTRIBUTING.md) e verifique se já existe um relato semelhante.
+
+[Abra uma Issue](https://github.com/gersoncdias/qavault-app/issues/new) informando, sempre que possível:
 
 - versão do QA Vault;
-- forma de acesso utilizada: desktop, extensão ou web;
+- forma de acesso utilizada: Desktop, Extensão ou Web;
 - sistema operacional e navegador;
 - comportamento observado;
 - comportamento esperado;
 - passos para reprodução;
-- prints, vídeos ou links de evidência, quando possível.
+- prints, vídeos ou links de evidência.
 
 Não publique tokens, senhas, dados pessoais, evidências confidenciais ou informações internas da sua empresa.
 
@@ -180,6 +156,8 @@ Sugestões de funcionalidades e melhorias também são bem-vindas:
 ## Documentação
 
 - [Primeiros passos](getting-started.md)
+- [Como contribuir](CONTRIBUTING.md)
+- [Guia de testes](TESTING.md)
 - [Instalação no Linux](docs/linux-installation.md)
 - [Histórico de alterações](CHANGELOG.md)
 - [Releases publicadas](https://github.com/gersoncdias/qavault-app/releases)
@@ -206,6 +184,9 @@ Este repositório público contém:
 - notas de versão;
 - acompanhamento de bugs;
 - solicitações de melhorias;
+- ciclos públicos de teste;
+- Test Reports e validações da comunidade;
+- contribuições de documentação;
 - informações públicas do produto.
 
 ## Links

@@ -1,0 +1,140 @@
+name: "🐞 Bug Report"
+description: "Reporte um comportamento inesperado ou problema reproduzível no QA Vault."
+title: "[BUG] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por ajudar a melhorar o QA Vault.
+
+        Antes de continuar:
+        - pesquise as Issues existentes;
+        - registre apenas um problema por Issue;
+        - remova dados pessoais, confidenciais ou internos da sua empresa;
+        - nunca publique tokens, senhas, cookies ou chaves de API.
+
+  - type: dropdown
+    id: product
+    attributes:
+      label: Produto
+      description: Em qual produto o problema foi encontrado?
+      options:
+        - Desktop
+        - Extensão para navegador
+        - Web
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Versão
+      description: Informe a versão do QA Vault utilizada.
+      placeholder: "Ex.: Desktop 1.2.1 ou Extension 1.1.0"
+    validations:
+      required: true
+
+  - type: input
+    id: operating-system
+    attributes:
+      label: Sistema operacional
+      placeholder: "Ex.: Windows 11, Ubuntu 24.04, macOS"
+    validations:
+      required: true
+
+  - type: input
+    id: browser
+    attributes:
+      label: Navegador
+      description: Preencha quando aplicável.
+      placeholder: "Ex.: Chrome 151, Edge, Firefox ou N/A"
+    validations:
+      required: false
+
+  - type: textarea
+    id: preconditions
+    attributes:
+      label: Pré-condições
+      description: Informe configurações ou condições necessárias para reproduzir o problema.
+      placeholder: |
+        Exemplo:
+        - Usuário autenticado
+        - Google Drive conectado
+        - Extensão fixada no navegador
+    validations:
+      required: false
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Passos para reprodução
+      description: Descreva os passos em ordem.
+      placeholder: |
+        1. Abrir...
+        2. Clicar...
+        3. Selecionar...
+        4. Observar...
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual-result
+    attributes:
+      label: Resultado atual
+      description: O que aconteceu?
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-result
+    attributes:
+      label: Resultado esperado
+      description: O que deveria acontecer?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: Frequência
+      options:
+        - Sempre
+        - Intermitente
+        - Ocorreu apenas uma vez
+        - Não consegui determinar
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidências
+      description: Adicione prints, vídeos, logs ou links de evidência quando possível.
+      placeholder: |
+        Arraste arquivos aqui ou cole links de evidência.
+
+        Antes de publicar, confirme que não existem dados confidenciais.
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Informações adicionais
+      description: Adicione qualquer informação que possa ajudar na análise.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: Pesquisei as Issues existentes antes de criar este relato.
+          required: true
+        - label: Estou registrando apenas um problema nesta Issue.
+          required: true
+        - label: Removi dados pessoais, confidenciais e informações internas.
+          required: true
