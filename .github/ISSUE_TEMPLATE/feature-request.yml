@@ -1,0 +1,78 @@
+name: "💡 Feature Request"
+description: "Sugira uma nova funcionalidade ou melhoria para o QA Vault."
+title: "[FEATURE] "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por compartilhar uma ideia para melhorar o QA Vault.
+
+        Antes de criar uma nova sugestão, pesquise as Issues existentes para verificar se a ideia já foi discutida.
+
+  - type: dropdown
+    id: product
+    attributes:
+      label: Produto relacionado
+      options:
+        - Desktop
+        - Extensão para navegador
+        - Web
+        - Todos
+        - Outro
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problema ou necessidade
+      description: Qual dificuldade ou necessidade essa sugestão pretende resolver?
+      placeholder: |
+        Exemplo:
+        Durante testes exploratórios preciso...
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Sugestão
+      description: Descreva como você imagina a melhoria.
+    validations:
+      required: true
+
+  - type: textarea
+    id: benefit
+    attributes:
+      label: Benefício para o fluxo de QA
+      description: Como essa melhoria ajudaria no trabalho de QA?
+    validations:
+      required: false
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternativas consideradas
+      description: Existe alguma forma alternativa de resolver o problema atualmente?
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Informações adicionais
+      description: Prints, referências ou exemplos podem ser adicionados aqui.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: Pesquisei as Issues existentes antes de criar esta sugestão.
+          required: true
+        - label: Esta sugestão não contém informações confidenciais.
+          required: true

@@ -1,0 +1,129 @@
+name: "🧪 Test Report"
+description: "Registre os resultados de testes executados em uma versão pública do QA Vault."
+title: "[TEST REPORT] "
+labels:
+  - testing
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por testar o QA Vault.
+
+        Test Reports ajudam a registrar quais versões, ambientes e funcionalidades foram validados pela comunidade.
+
+        Não é necessário encontrar um bug para registrar um Test Report.
+
+  - type: dropdown
+    id: product
+    attributes:
+      label: Produto testado
+      options:
+        - Desktop
+        - Extensão para navegador
+        - Web
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Versão testada
+      placeholder: "Ex.: Extension 1.2.0"
+    validations:
+      required: true
+
+  - type: input
+    id: operating-system
+    attributes:
+      label: Sistema operacional
+      placeholder: "Ex.: Windows 11"
+    validations:
+      required: true
+
+  - type: input
+    id: browser
+    attributes:
+      label: Navegador
+      placeholder: "Ex.: Chrome 151 ou N/A"
+    validations:
+      required: false
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Escopo do teste
+      description: Informe quais funcionalidades ou fluxos foram avaliados.
+      placeholder: |
+        Exemplo:
+        - captura de aba
+        - edição de imagem
+        - download local
+        - upload para Google Drive
+    validations:
+      required: true
+
+  - type: textarea
+    id: scenarios
+    attributes:
+      label: Cenários executados
+      description: Registre os cenários e seus resultados.
+      placeholder: |
+        - [x] Captura de aba
+        - [x] Captura de janela
+        - [x] Cancelamento da captura
+        - [x] Download local
+    validations:
+      required: true
+
+  - type: textarea
+    id: bugs
+    attributes:
+      label: Bugs encontrados
+      description: Informe as Issues abertas durante os testes.
+      placeholder: |
+        Exemplo:
+        #123
+        #127
+
+        Caso nenhum problema tenha sido encontrado, escreva:
+        Nenhum bug encontrado.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: result
+    attributes:
+      label: Resultado geral
+      options:
+        - Aprovado
+        - Aprovado com observações
+        - Reprovado
+        - Não concluído
+    validations:
+      required: true
+
+  - type: textarea
+    id: observations
+    attributes:
+      label: Observações
+      description: Feedbacks, dificuldades, sugestões ou comportamentos observados.
+    validations:
+      required: false
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidências
+      description: Adicione prints, vídeos ou links quando relevante.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: Utilizei somente dados e ambientes autorizados.
+          required: true
+        - label: Removi informações pessoais ou confidenciais das evidências.
+          required: true
