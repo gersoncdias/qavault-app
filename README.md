@@ -106,7 +106,7 @@ Consulte o guia completo:
 
 [Começar a usar o QA Vault](getting-started.md)
 
-## 🧪 Contribua com o QA Vault
+##  Contribua com o QA Vault
 
 Você não precisa escrever código para contribuir com o QA Vault.
 
