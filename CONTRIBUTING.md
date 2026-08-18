@@ -24,7 +24,7 @@ Antes de criar uma nova Issue:
 1. Pesquise as Issues existentes.
 2. Verifique se o problema ou sugestão já foi registrado.
 3. Caso já exista, adicione informações relevantes na Issue existente.
-4. Utilize uma reação 👍 em vez de comentários apenas com `+1`.
+4. Utilize uma reação em vez de comentários apenas com `+1`.
 
 ## Reportando bugs
 
